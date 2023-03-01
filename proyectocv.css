@@ -1,0 +1,96 @@
+#fotocarnet {
+    background-image: url('iconos/foto perfil.jpg.');
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    border: 0px;
+    padding: 50px;
+    margin: 0px;
+    background-position: center;
+    background-size: cover;
+  }
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(175, 174, 174);
+    border: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+
+button, input {
+    color: black;
+    background-color: grey;
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Perfil {
+    overflow: auto;
+    height: 560px;
+    background-color:grey;
+    width:420px;
+    padding: 10px;
+    margin: 20% auto;
+    position:relative;
+    float: right;
+  }
+
+.modal {
+    position:fixed;
+    top:-250px;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+}
+
+#IrVentanaFlotante:target {
+   opacity:1;
+   pointer-events:auto;
+}
+
+* {
+    font-size: 20px;
+    border: 20px;
+    box-sizing: border-box;
+    margin:0px;
+}
+
+.Formacion {
+    overflow: auto;
+    height: 610px;
+    background-color: grey;
+    width:475px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    float: right;
+  }
+.caja1,.caja {
+    background-color: rgb(175, 174, 174);
+    margin-bottom: auto;
+    text-align: justify;
+    border: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+#IrVentana:target {
+    opacity:1;
+    pointer-events:auto;
+}
+
+footer {
+   text-align: center;
+   font-size: 15px;
+}
